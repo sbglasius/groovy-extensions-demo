@@ -6,3 +6,7 @@ plugins {
     id 'buildlogic.groovy-library-conventions'
 }
 
+
+dependencies {
+    implementation libs.groovy
+}
