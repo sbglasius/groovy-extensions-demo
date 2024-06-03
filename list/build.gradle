@@ -7,7 +7,4 @@ plugins {
 }
 
 dependencies {
-    implementation libs.groovy
-    
-    testImplementation libs.spock.framework
 }
