@@ -6,7 +6,8 @@ plugins {
     id 'buildlogic.groovy-library-conventions'
 }
 
-
 dependencies {
     implementation libs.groovy
+    
+    testImplementation libs.spock.framework
 }

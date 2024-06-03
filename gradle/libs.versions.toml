@@ -3,6 +3,8 @@
 
 [versions]
 groovy  = '4.0.21'
+spock = '2.3-groovy-4.0'
 
 [libraries]
 groovy = { module = "org.apache.groovy:groovy", version.ref = "groovy" }
+spock-framework = { module = 'org.spockframework:spock-core', version.ref = "spock"}
